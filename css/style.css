@@ -1,25 +1,8 @@
-@font-face {
-  font-family: "Poppins";
-  src: url(/assets/Poppins/Poppins-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Poppins-Medium";
-  src: url(/assets/Poppins/Poppins-Medium.ttf);
-}
-
-@font-face {
-  font-family: "Poppins-SemiBold";
-  src: url(/assets/Poppins/Poppins-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url(/assets/Poppins/Poppins-Bold.ttf);
-}
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -67,8 +50,9 @@ body {
 }
 
 .heading_container h2 {
+  font-family: "Poppins", sans-serif;
   position: relative;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .heading_container h2 span {
@@ -133,7 +117,8 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-family: "Poppins-Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: #ffffff;
   font-size: 24px;
   margin-left: 0.5rem;
@@ -148,7 +133,8 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  font-family: "Poppins-Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   padding: 5px 15px;
   font-size: 17px;
   color: #ffffff;
@@ -263,8 +249,8 @@ a:focus {
   color: #000000;
   text-transform: uppercase;
   margin-right: 1.5rem;
-  font-family: "Poppins-Medium";
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .quote_btn-container a span {
@@ -405,15 +391,17 @@ a:focus {
 
 .h1-slider {
   font-size: 38px;
-  font-family: "Poppins-SemiBold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   margin-bottom: 4px;
-  bold
+  
 }
 
 .h2-slider {
   font-size: 23px;
   margin-bottom: 10px;
-  font-family: "Poppins-Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .slider-paragraph {
@@ -461,7 +449,8 @@ a:focus {
 }
 
 .h5-index {
-  font-family: "Poppins-Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   margin-bottom: 2rem;
   width: 350px;
   text-align: center;
@@ -725,7 +714,8 @@ a:focus {
 
 .h2-familie {
   text-align: center;
-  font-family: "Poppins-SemiBold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 30px;
 }
 
@@ -733,7 +723,8 @@ a:focus {
   font-size: 18px;
   margin-top: 5px;
   margin-bottom: 10px;
-  font-family: "Poppins-Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .imgFamily {
@@ -749,7 +740,8 @@ a:focus {
 
 .myProject-h2 {
   font-size: 35px;
-  font-family: "Poppins-Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .projects {
@@ -776,7 +768,8 @@ a:focus {
 }
 
 .projects-h2, .projects-h2-indo {
-  font-family: "Poppins-Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 18px;
   margin-bottom: 2rem;
   text-align: center;
